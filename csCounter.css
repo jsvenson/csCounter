@@ -1,0 +1,25 @@
+.csCounter-digit {
+    display: inline-block;
+    font-size: 18pt;
+    height: 28px;
+    width: 18px;
+    line-height: 28px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: -webkit-linear-gradient(top, #777, #fff 40%, #fff 60%, #777);
+}
+            
+.csCounter-digit .csCounter-tape {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 280px;
+    display: block;
+}
+            
+.csCounter-tape span {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
