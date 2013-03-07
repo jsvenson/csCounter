@@ -17,11 +17,22 @@
                     'number' : Math.floor(Math.random() * 999999),
                     'digits' : 6
                 });
+                
+                $('#reload').click(function() {
+                    $('#counter').empty().csCounter({
+                        'number' : Math.floor(Math.random() * 999999),
+                        'digits' : 6
+                    });
+                    
+                    return false;
+                });
             });
         </script>
     </head>
     <body>
         <div id="counter"></div>
+        
+        <p><a href="#" id="reload">Reload</a></p>
         
         <div id="console"></div>
     </body>
