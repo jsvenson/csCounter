@@ -6,7 +6,7 @@ A jQuery plugin implementing a simple spinning counter animation.
 
 <pre>
 $('#counter').csCounter({
-  'number'          : 12345,
+	'number'          : 12345,
 	'spinCount'       : 3,
 	'digits'          : 5,
 	'autoStart'       : true,
