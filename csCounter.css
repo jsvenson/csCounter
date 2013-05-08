@@ -1,3 +1,12 @@
+#counter {
+    font-size: 0;
+    border: 1px solid #000;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
 .csCounter-digit {
     display: inline-block;
     font-size: 18pt;
@@ -8,6 +17,11 @@
     position: relative;
     overflow: hidden;
     background: -webkit-linear-gradient(top, #777, #fff 40%, #fff 60%, #777);
+    background: -moz-linear-gradient(top, #777, #fff 40%, #fff 60%, #777);
+    background: -ms-linear-gradient(top, #777, #fff 40%, #fff 60%, #777);
+    background: linear-gradient(top, #777, #fff 40%, #fff 60%, #777);
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
 }
             
 .csCounter-digit .csCounter-tape {
@@ -16,6 +30,7 @@
     width: 100%;
     height: 280px;
     display: block;
+    text-shadow: rgba(255, 255, 255, 0.6) 0 -1px 0;
 }
             
 .csCounter-tape span {
